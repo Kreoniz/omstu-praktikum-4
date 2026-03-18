@@ -1,0 +1,20 @@
+[project]
+name = "omstu-praktikum-4"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "marimo>=0.20.4",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.3",
+    "pandas>=3.0.1",
+    "pygame-ce>=2.5.7",
+    "scikit-learn>=1.8.0",
+    "torch>=2.10.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.6",
+]
